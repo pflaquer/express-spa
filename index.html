@@ -8,8 +8,8 @@
 
     function fetch() {
 
-      fetch("https://express-spa-mcpm.vercel.app")
-      .then(res=>res.text())
+      fetch("https://express-spa-mcpm.vercel.app/")
+      .then(res=>res.blob())
       .then(data=> document.body.innerHTML = data;
 
       );
